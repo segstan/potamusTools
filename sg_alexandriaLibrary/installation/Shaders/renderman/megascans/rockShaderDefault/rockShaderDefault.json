@@ -1,0 +1,1843 @@
+{
+    "CONSTRUCTOR_material": {
+        "PxrSurface": [
+            {
+                "connections": [
+                    "CONSTRUCTOR_material.roughSpecularRoughness", 
+                    "PxrColorCorrect_ROUGHNESS.resultRGBR", 
+                    "CONSTRUCTOR_material.diffuseColor", 
+                    "PxrColorCorrect_ALBEDO.resultRGB", 
+                    "CONSTRUCTOR_material.bumpNormal", 
+                    "CONSTRUCTOR_normal.resultN", 
+                    "CONSTRUCTOR_material.fuzzColor", 
+                    "PxrColorCorrect_FUZZ.resultRGB", 
+                    "CONSTRUCTOR_material.presence", 
+                    "PxrColorCorrect_OPACITY.resultR", 
+                    "CONSTRUCTOR_material.subsurfaceColor", 
+                    "PxrColorCorrect_TRANSLUCENCY.resultRGB", 
+                    "CONSTRUCTOR_material.roughSpecularFaceColor", 
+                    "PxrColorCorrect_SPECULAR.resultRGB"
+                ], 
+                "attributes": {
+                    "roughSpecularIorB": 1.5, 
+                    "roughSpecularExtinctionCoeffB": 0.0, 
+                    "roughSpecularIorG": 1.5, 
+                    "roughSpecularExtinctionCoeffG": 0.0, 
+                    "clearcoatAnisotropy": 0.0, 
+                    "roughnessMollificationClamp": 32.0, 
+                    "roughSpecularFaceColorB": 0.0, 
+                    "specularEdgeColorG": 0.0, 
+                    "roughSpecularFaceColorG": 0.0, 
+                    "iridescenceFlip": false, 
+                    "mwIor": -1.0, 
+                    "specularEdgeColorB": 0.0, 
+                    "presence": 0.0, 
+                    "roughSpecularIorR": 1.5, 
+                    "fuzzGain": 1.0, 
+                    "roughSpecularExtinctionCoeffR": 0.0, 
+                    "bumpNormalX": 0.0, 
+                    "subsurfaceDmfp": 10.0, 
+                    "blocksVolumes": false, 
+                    "glassAnisotropyDirection": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "roughSpecularFaceColorR": 0.0, 
+                    "glassBumpNormalY": 0.0, 
+                    "glassBumpNormalX": 0.0, 
+                    "singlescatterColorR": 0.8299999833106995, 
+                    "maxContinuationHits": 2, 
+                    "fuzzConeAngle": 8.0, 
+                    "specularEdgeColorR": 0.0, 
+                    "shadowColorG": 0.0, 
+                    "iridescenceSecondaryColorR": 0.0, 
+                    "irradianceTintR": 1.0, 
+                    "iridescenceFresnelShape": 5.0, 
+                    "fuzzBumpNormalY": 0.0, 
+                    "fuzzBumpNormalX": 0.0, 
+                    "fuzzBumpNormalZ": 0.0, 
+                    "userColorR": 0.0, 
+                    "irradianceRoughness": 0.0, 
+                    "specularIor": [
+                        [
+                            1.5, 
+                            1.5, 
+                            1.5
+                        ]
+                    ], 
+                    "iridescenceEdgeGain": 0.0, 
+                    "roughSpecularAnisotropy": 0.0, 
+                    "singlescatterDirectGainTint": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "iridescenceSecondaryColorB": 1.0, 
+                    "irradianceTintB": 1.0, 
+                    "shadowBumpTerminator": true, 
+                    "clearcoatFaceColor": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "diffuseBumpNormal": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "singlescatterColorG": 0.7910000085830688, 
+                    "glowColorG": 1.0, 
+                    "userColorB": 0.0, 
+                    "glowColorB": 1.0, 
+                    "specularFresnelMode": 1, 
+                    "shortSubsurfaceGain": 0.0, 
+                    "ignoreFresnel": false, 
+                    "iridescenceScale": 1.0, 
+                    "shadowColorR": 0.0, 
+                    "continuationRayMode": 0, 
+                    "subsurfaceBleed": 0.0, 
+                    "singlescatterSubset": "", 
+                    "iridescenceBumpNormalY": 0.0, 
+                    "iridescenceBumpNormalX": 0.0, 
+                    "iridescenceBumpNormalZ": 0.0, 
+                    "specularDoubleSided": false, 
+                    "glassBumpNormalZ": 0.0, 
+                    "roughSpecularIor": [
+                        [
+                            1.5, 
+                            1.5, 
+                            1.5
+                        ]
+                    ], 
+                    "specularFresnelShape": 5.0, 
+                    "clearcoatRoughness": 0.0, 
+                    "clearcoatFresnelShape": 5.0, 
+                    "subsurfaceDoubleSided": false, 
+                    "thinGlass": false, 
+                    "diffuseDoubleSided": false, 
+                    "iridescenceAnisotropyDirection": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "roughSpecularFaceColor": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "specularModelType": 1, 
+                    "clearcoatExtinctionCoeff": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "roughSpecularExtinctionCoeff": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "specularIorR": 1.5, 
+                    "subsurfaceSubset": "", 
+                    "roughSpecularFresnelShape": 5.0, 
+                    "singlescatterMfpColorB": 0.39500001072883606, 
+                    "ssAlbedo": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "clearcoatEnergyCompensation": 1.0, 
+                    "glassBumpNormal": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "subsurfaceDmfpColor": [
+                        [
+                            0.8510000109672546, 
+                            0.5569999814033508, 
+                            0.39500001072883606
+                        ]
+                    ], 
+                    "specularIorB": 1.5, 
+                    "diffuseTransmitGain": 0.0, 
+                    "specularIorG": 1.5, 
+                    "bumpNormalY": 0.0, 
+                    "subsurfaceColorG": 0.0, 
+                    "bumpNormalZ": 0.0, 
+                    "subsurfaceColorB": 0.0, 
+                    "presenceCached": 1, 
+                    "utilityPattern[0]": 0, 
+                    "refractionColor": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "subsurfaceColor": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "subsurfaceColorR": 0.0, 
+                    "glassAnisotropyDirectionZ": 0.0, 
+                    "roughSpecularRoughness": 0.0, 
+                    "specularFaceColor": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "glassAnisotropy": 0.0, 
+                    "singlescatterDirectGainTintG": 1.0, 
+                    "clearcoatExtinctionCoeffB": 0.0, 
+                    "diffuseBackColorR": 0.18000000715255737, 
+                    "clearcoatExtinctionCoeffG": 0.0, 
+                    "iridescenceFaceGain": 0.0, 
+                    "specularRoughness": 0.20000000298023224, 
+                    "roughSpecularBumpNormalZ": 0.0, 
+                    "roughSpecularBumpNormalY": 0.0, 
+                    "roughSpecularBumpNormalX": 0.0, 
+                    "diffuseGain": 1.0, 
+                    "clearcoatExtinctionCoeffR": 0.0, 
+                    "shadowColor": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "diffuseBackColorB": 0.18000000715255737, 
+                    "diffuseBackUseDiffuseColor": true, 
+                    "diffuseBackColorG": 0.18000000715255737, 
+                    "subsurfacePostTint": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "glassRoughness": 0.10000000149011612, 
+                    "singlescatterMfpColorG": 0.5569999814033508, 
+                    "singlescatterGain": 0.0, 
+                    "glowColor": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "subsurfaceGain": 0.0, 
+                    "singlescatterDoubleSided": false, 
+                    "roughSpecularDoubleSided": false, 
+                    "specularBumpNormalY": 0.0, 
+                    "specularBumpNormalX": 0.0, 
+                    "specularBumpNormalZ": 0.0, 
+                    "fuzzDoubleSided": false, 
+                    "diffuseTransmitColorB": 0.18000000715255737, 
+                    "diffuseColorG": 0.0, 
+                    "singlescatterColor": [
+                        [
+                            0.8299999833106995, 
+                            0.7910000085830688, 
+                            0.753000020980835
+                        ]
+                    ], 
+                    "diffuseColorB": 0.0, 
+                    "diffuseTransmitColorG": 0.18000000715255737, 
+                    "roughSpecularAnisotropyDirection": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "diffuseRoughness": 0.0, 
+                    "diffuseTransmitColorR": 0.18000000715255737, 
+                    "reflectionGain": 0.0, 
+                    "enableOverlappingVolumes": false, 
+                    "diffuseColorR": 0.0, 
+                    "shadowColorB": 0.0, 
+                    "mwWalkable": false, 
+                    "diffuseBumpNormalZ": 0.0, 
+                    "diffuseBumpNormalY": 0.0, 
+                    "diffuseBumpNormalX": 0.0, 
+                    "roughSpecularModelType": 1, 
+                    "singlescatterDirectGain": 0.0, 
+                    "shortSubsurfaceColorG": 0.8999999761581421, 
+                    "iridescenceCurve": 1.0, 
+                    "roughSpecularEdgeColorG": 1.0, 
+                    "inputMaterial": 0.0, 
+                    "clearcoatBumpNormalY": 0.0, 
+                    "clearcoatBumpNormalX": 0.0, 
+                    "singlescatterDirectionality": 0.0, 
+                    "clearcoatBumpNormalZ": 0.0, 
+                    "singlescatterBlur": 0.0, 
+                    "glowColorR": 1.0, 
+                    "ssAlbedoR": 0.0, 
+                    "refractionColorB": 1.0, 
+                    "iridescenceRoughness": 0.20000000298023224, 
+                    "singlescatterDirectGainTintR": 1.0, 
+                    "iridescenceDoubleSided": false, 
+                    "ssAlbedoG": 0.0, 
+                    "subsurfaceDiffuseBlend": 0.0, 
+                    "irradianceTint": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "ssAlbedoB": 0.0, 
+                    "glassRefractionRoughness": -1.0, 
+                    "singlescatterDirectGainTintB": 1.0, 
+                    "fuzzColorR": 0.0, 
+                    "fuzzColor": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "iridescencePrimaryColorG": 0.0, 
+                    "glassIor": 1.5, 
+                    "clearcoatAnisotropyDirection": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "glowGain": 0.0, 
+                    "iridescencePrimaryColorB": 0.0, 
+                    "iridescencePrimaryColor": [
+                        [
+                            1.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "singlescatterMfp": 10.0, 
+                    "extinctionR": 0.0, 
+                    "longSubsurfaceDmfp": 20.0, 
+                    "shortSubsurfaceColorB": 0.8999999761581421, 
+                    "singlescatterMaxContinuationHits": 2, 
+                    "fuzzColorB": 0.0, 
+                    "specularAnisotropy": 0.0, 
+                    "fuzzColorG": 0.0, 
+                    "iridescencePrimaryColorR": 1.0, 
+                    "specularAnisotropyDirectionZ": 0.0, 
+                    "iridescenceSecondaryColorG": 0.0, 
+                    "specularAnisotropyDirectionX": 0.0, 
+                    "specularAnisotropyDirectionY": 0.0, 
+                    "clearcoatIor": [
+                        [
+                            1.5, 
+                            1.5, 
+                            1.5
+                        ]
+                    ], 
+                    "shortSubsurfaceColorR": 0.8999999761581421, 
+                    "extinctionG": 0.0, 
+                    "clearcoatEdgeColor": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "specularExtinctionCoeffR": 0.0, 
+                    "singlescatterDirectGainMode": 0, 
+                    "subsurfaceDmfpColorR": 0.8510000109672546, 
+                    "specularBumpNormal": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "clearcoatFresnelMode": 0, 
+                    "irradianceTintG": 1.0, 
+                    "specularExtinctionCoeffG": 0.0, 
+                    "specularExtinctionCoeff": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "iridescenceBumpNormal": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "specularExtinctionCoeffB": 0.0, 
+                    "userColorG": 0.0, 
+                    "shadowMode": 0, 
+                    "subsurfaceResolveSelfIntersections": false, 
+                    "longSubsurfaceColorB": 0.0, 
+                    "singlescatterContinuationRayMode": 0, 
+                    "g": 0.0, 
+                    "clearcoatModelType": 0, 
+                    "subsurfaceIor": 1.399999976158142, 
+                    "specularEnergyCompensation": 1.0, 
+                    "iridescenceThickness": 800.0, 
+                    "singlescatterMfpColorR": 0.8510000109672546, 
+                    "iridescenceAnisotropyDirectionZ": 0.0, 
+                    "iridescenceAnisotropyDirectionX": 0.0, 
+                    "iridescenceAnisotropyDirectionY": 0.0, 
+                    "ignoreAccumOpacity": false, 
+                    "shortSubsurfaceColor": [
+                        [
+                            0.8999999761581421, 
+                            0.8999999761581421, 
+                            0.8999999761581421
+                        ]
+                    ], 
+                    "subsurfaceDiffuseSwitch": 1.0, 
+                    "longSubsurfaceColorG": 0.0, 
+                    "roughSpecularFresnelMode": 1, 
+                    "clearcoatAbsorptionTintG": 0.0, 
+                    "clearcoatAbsorptionTintB": 0.0, 
+                    "roughSpecularEdgeColorB": 1.0, 
+                    "subsurfacePostTintG": 1.0, 
+                    "mwStartable": false, 
+                    "diffuseTransmitColor": [
+                        [
+                            0.18000000715255737, 
+                            0.18000000715255737, 
+                            0.18000000715255737
+                        ]
+                    ], 
+                    "extinctionB": 0.0, 
+                    "clearcoatBumpNormal": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "clearcoatAbsorptionTintR": 0.0, 
+                    "roughSpecularEdgeColorR": 1.0, 
+                    "subsurfacePostTintR": 1.0, 
+                    "shortSubsurfaceDmfp": 5.0, 
+                    "singlescatterConsiderBackside": true, 
+                    "clearcoatFaceColorB": 0.0, 
+                    "specularEdgeColor": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "clearcoatFaceColorG": 0.0, 
+                    "refractionColorG": 1.0, 
+                    "fuzzBumpNormal": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "clearcoatAnisotropyDirectionZ": 0.0, 
+                    "glassAnisotropyDirectionY": 0.0, 
+                    "clearcoatAnisotropyDirectionX": 0.0, 
+                    "clearcoatAnisotropyDirectionY": 0.0, 
+                    "diffuseBackColor": [
+                        [
+                            0.18000000715255737, 
+                            0.18000000715255737, 
+                            0.18000000715255737
+                        ]
+                    ], 
+                    "specularAnisotropyDirection": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "longSubsurfaceGain": 0.0, 
+                    "clearcoatFaceColorR": 0.0, 
+                    "singlescatterColorB": 0.753000020980835, 
+                    "extinction": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "subsurfaceDmfpColorG": 0.5569999814033508, 
+                    "subsurfaceTransmitGain": 0.0, 
+                    "subsurfaceType": 0, 
+                    "singlescatterIor": 1.2999999523162842, 
+                    "clearcoatEdgeColorR": 0.0, 
+                    "unitLength": 0.10000000149011612, 
+                    "subsurfaceDirectionality": 0.0, 
+                    "iridescenceMode": 0, 
+                    "clearcoatDoubleSided": false, 
+                    "refractionGain": 0.0, 
+                    "clearcoatIorR": 1.5, 
+                    "longSubsurfaceColor": [
+                        [
+                            0.800000011920929, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "longSubsurfaceColorR": 0.800000011920929, 
+                    "clearcoatEdgeColorB": 0.0, 
+                    "clearcoatEdgeColorG": 0.0, 
+                    "iridescenceAnisotropy": 0.0, 
+                    "considerBackside": true, 
+                    "clearcoatIorG": 1.5, 
+                    "singlescatterMfpColor": [
+                        [
+                            0.8510000109672546, 
+                            0.5569999814033508, 
+                            0.39500001072883606
+                        ]
+                    ], 
+                    "clearcoatAbsorptionTint": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "clearcoatIorB": 1.5, 
+                    "roughSpecularAnisotropyDirectionX": 0.0, 
+                    "roughSpecularAnisotropyDirectionY": 0.0, 
+                    "roughSpecularAnisotropyDirectionZ": 0.0, 
+                    "refractionColorR": 1.0, 
+                    "roughSpecularEdgeColor": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "diffuseColor": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "specularFaceColorG": 0.0, 
+                    "bumpNormal": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "specularFaceColorB": 0.0, 
+                    "subsurfaceDmfpColorB": 0.39500001072883606, 
+                    "roughSpecularBumpNormal": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "diffuseExponent": 1.0, 
+                    "userColor": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "multiScatter": false, 
+                    "glassAnisotropyDirectionX": 0.0, 
+                    "iridescenceSecondaryColor": [
+                        [
+                            0.0, 
+                            0.0, 
+                            1.0
+                        ]
+                    ], 
+                    "subsurfacePostTintB": 1.0, 
+                    "followTopology": 0.0, 
+                    "clearcoatThickness": 0.0, 
+                    "specularFaceColorR": 0.0
+                }
+            }
+        ]
+    }, 
+    "PxrColorCorrect_NORMAL": {
+        "PxrColorCorrect": [
+            {
+                "connections": null, 
+                "attributes": {
+                    "clampMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "mixMask": 1.0, 
+                    "inputRGBR": 0.0, 
+                    "outputMaxZ": 1.0, 
+                    "outputMaxY": 1.0, 
+                    "outputMaxX": 1.0, 
+                    "outputMinY": 0.0, 
+                    "hsvX": 0.0, 
+                    "hsvY": 1.0, 
+                    "inputRGBG": 0.0, 
+                    "hsvZ": 1.0, 
+                    "inputRGBB": 0.0, 
+                    "outputMinX": 0.0, 
+                    "outputMinZ": 0.0, 
+                    "inputMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "inputMaxZ": 1.0, 
+                    "inputMaxY": 1.0, 
+                    "inputMaxX": 1.0, 
+                    "inputMask": 1.0, 
+                    "rgbGainR": 1.0, 
+                    "inputMinY": 0.0, 
+                    "inputMinX": 0.0, 
+                    "inputMinZ": 0.0, 
+                    "inputMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "rgbGainG": 1.0, 
+                    "clampMaxZ": 1.0, 
+                    "rgbGainB": 1.0, 
+                    "outputMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "clampMinX": 0.0, 
+                    "clampMinY": 0.0, 
+                    "clampMinZ": 0.0, 
+                    "contrast": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "clampMaxX": 1.0, 
+                    "outputMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "clampMaxY": 1.0, 
+                    "contrastPivotX": 0.5, 
+                    "contrastPivotY": 0.5, 
+                    "contrastPivotZ": 0.5, 
+                    "clampOutput": false, 
+                    "contrastPivot": [
+                        [
+                            0.5, 
+                            0.5, 
+                            0.5
+                        ]
+                    ], 
+                    "hsv": [
+                        [
+                            0.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "inputRGB": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "exposure": 0.0, 
+                    "rgbGain": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "clampMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "gammaZ": 1.0, 
+                    "gammaY": 1.0, 
+                    "gammaX": 1.0, 
+                    "contrastZ": 0.0, 
+                    "contrastY": 0.0, 
+                    "contrastX": 0.0, 
+                    "invertMask": false, 
+                    "gamma": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ]
+                }
+            }
+        ]
+    }, 
+    "CONSTRUCTOR_lambert_OGL": {
+        "lambert": [
+            {
+                "connections": null, 
+                "attributes": {
+                    "surfaceThickness": 0.0, 
+                    "opacityDepth": 0.0, 
+                    "translucenceFocus": 0.5, 
+                    "glowIntensity": 0.0, 
+                    "translucenceDepth": 0.5, 
+                    "transparencyB": 0.0, 
+                    "colorB": 0.5, 
+                    "transparencyG": 0.0, 
+                    "colorG": 0.5, 
+                    "lightAbsorbance": 0.0, 
+                    "shadowAttenuation": 0.5, 
+                    "translucence": 0.0, 
+                    "transparencyR": 0.0, 
+                    "colorR": 0.5, 
+                    "matteOpacity": 1.0, 
+                    "materialAlphaGain": 1.0, 
+                    "diffuse": 0.800000011920929, 
+                    "incandescenceB": 0.0, 
+                    "incandescenceG": 0.0, 
+                    "ambientColorR": 0.0, 
+                    "incandescenceR": 0.0, 
+                    "ambientColorB": 0.0, 
+                    "ambientColorG": 0.0
+                }
+            }
+        ]
+    }, 
+    "PxrColorCorrect_ROUGHNESS": {
+        "PxrColorCorrect": [
+            {
+                "connections": null, 
+                "attributes": {
+                    "clampMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "mixMask": 1.0, 
+                    "inputRGBR": 1.0, 
+                    "outputMaxZ": 1.0, 
+                    "outputMaxY": 1.0, 
+                    "outputMaxX": 1.0, 
+                    "outputMinY": 0.0, 
+                    "hsvX": 0.0, 
+                    "hsvY": 1.0, 
+                    "inputRGBG": 1.0, 
+                    "hsvZ": 1.0, 
+                    "inputRGBB": 1.0, 
+                    "outputMinX": 0.0, 
+                    "outputMinZ": 0.0, 
+                    "inputMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "inputMaxZ": 1.0, 
+                    "inputMaxY": 1.0, 
+                    "inputMaxX": 1.0, 
+                    "inputMask": 1.0, 
+                    "rgbGainR": 1.0, 
+                    "inputMinY": 0.0, 
+                    "inputMinX": 0.0, 
+                    "inputMinZ": 0.0, 
+                    "inputMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "rgbGainG": 1.0, 
+                    "clampMaxZ": 1.0, 
+                    "rgbGainB": 1.0, 
+                    "outputMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "clampMinX": 0.0, 
+                    "clampMinY": 0.0, 
+                    "clampMinZ": 0.0, 
+                    "contrast": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "clampMaxX": 1.0, 
+                    "outputMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "clampMaxY": 1.0, 
+                    "contrastPivotX": 0.5, 
+                    "contrastPivotY": 0.5, 
+                    "contrastPivotZ": 0.5, 
+                    "clampOutput": false, 
+                    "contrastPivot": [
+                        [
+                            0.5, 
+                            0.5, 
+                            0.5
+                        ]
+                    ], 
+                    "hsv": [
+                        [
+                            0.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "inputRGB": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "exposure": 0.0, 
+                    "rgbGain": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "clampMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "gammaZ": 0.5, 
+                    "gammaY": 0.5, 
+                    "gammaX": 0.5, 
+                    "contrastZ": 0.0, 
+                    "contrastY": 0.0, 
+                    "contrastX": 0.0, 
+                    "invertMask": false, 
+                    "gamma": [
+                        [
+                            0.5, 
+                            0.5, 
+                            0.5
+                        ]
+                    ]
+                }
+            }
+        ]
+    }, 
+    "CONSTRUCTOR_normal": {
+        "PxrNormalMap": [
+            {
+                "connections": [
+                    "CONSTRUCTOR_normal.inputRGB", 
+                    "PxrColorCorrect_NORMAL.resultRGB"
+                ], 
+                "attributes": {
+                    "manifold": "", 
+                    "orientation": 1, 
+                    "mipBias": 0, 
+                    "inputRGBR": 0.0, 
+                    "atlasStyle": 0, 
+                    "inputRGBG": 0.0, 
+                    "inputRGBB": 0.0, 
+                    "firstChannel": 0, 
+                    "flipX": false, 
+                    "flipY": false, 
+                    "filename": "", 
+                    "bumpScale": 1.0, 
+                    "adjustAmount": 1.0, 
+                    "blur": 0.0, 
+                    "bumpOverlay": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "lerp": true, 
+                    "disable": false, 
+                    "inputRGB": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "invertT": true, 
+                    "maxResolution": 0.0, 
+                    "surfaceNormalMix": 0.0, 
+                    "reverse": false, 
+                    "bumpOverlayX": 0.0, 
+                    "bumpOverlayY": 0.0, 
+                    "bumpOverlayZ": 0.0, 
+                    "optimizeIndirect": true, 
+                    "filter": 1, 
+                    "invertBump": false
+                }
+            }
+        ]
+    }, 
+    "PxrColorCorrect_OPACITY": {
+        "PxrColorCorrect": [
+            {
+                "connections": null, 
+                "attributes": {
+                    "clampMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "mixMask": 1.0, 
+                    "inputRGBR": 1.0, 
+                    "outputMaxZ": 1.0, 
+                    "outputMaxY": 1.0, 
+                    "outputMaxX": 1.0, 
+                    "outputMinY": 0.0, 
+                    "hsvX": 0.0, 
+                    "hsvY": 1.0, 
+                    "inputRGBG": 1.0, 
+                    "hsvZ": 1.0, 
+                    "inputRGBB": 1.0, 
+                    "outputMinX": 0.0, 
+                    "outputMinZ": 0.0, 
+                    "inputMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "inputMaxZ": 1.0, 
+                    "inputMaxY": 1.0, 
+                    "inputMaxX": 1.0, 
+                    "inputMask": 1.0, 
+                    "rgbGainR": 1.0, 
+                    "inputMinY": 0.0, 
+                    "inputMinX": 0.0, 
+                    "inputMinZ": 0.0, 
+                    "inputMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "rgbGainG": 1.0, 
+                    "clampMaxZ": 1.0, 
+                    "rgbGainB": 1.0, 
+                    "outputMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "clampMinX": 0.0, 
+                    "clampMinY": 0.0, 
+                    "clampMinZ": 0.0, 
+                    "contrast": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "clampMaxX": 1.0, 
+                    "outputMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "clampMaxY": 1.0, 
+                    "contrastPivotX": 0.5, 
+                    "contrastPivotY": 0.5, 
+                    "contrastPivotZ": 0.5, 
+                    "clampOutput": false, 
+                    "contrastPivot": [
+                        [
+                            0.5, 
+                            0.5, 
+                            0.5
+                        ]
+                    ], 
+                    "hsv": [
+                        [
+                            0.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "inputRGB": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "exposure": 0.0, 
+                    "rgbGain": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "clampMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "gammaZ": 1.0, 
+                    "gammaY": 1.0, 
+                    "gammaX": 1.0, 
+                    "contrastZ": 0.0, 
+                    "contrastY": 0.0, 
+                    "contrastX": 0.0, 
+                    "invertMask": false, 
+                    "gamma": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ]
+                }
+            }
+        ]
+    }, 
+    "PxrColorCorrect_DISPLACEMENT": {
+        "PxrColorCorrect": [
+            {
+                "connections": null, 
+                "attributes": {
+                    "clampMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "mixMask": 1.0, 
+                    "inputRGBR": 0.0, 
+                    "outputMaxZ": 1.0, 
+                    "outputMaxY": 1.0, 
+                    "outputMaxX": 1.0, 
+                    "outputMinY": 0.0, 
+                    "hsvX": 0.0, 
+                    "hsvY": 1.0, 
+                    "inputRGBG": 0.0, 
+                    "hsvZ": 1.0, 
+                    "inputRGBB": 0.0, 
+                    "outputMinX": 0.0, 
+                    "outputMinZ": 0.0, 
+                    "inputMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "inputMaxZ": 1.0, 
+                    "inputMaxY": 1.0, 
+                    "inputMaxX": 1.0, 
+                    "inputMask": 1.0, 
+                    "rgbGainR": 1.0, 
+                    "inputMinY": 0.0, 
+                    "inputMinX": 0.0, 
+                    "inputMinZ": 0.0, 
+                    "inputMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "rgbGainG": 1.0, 
+                    "clampMaxZ": 1.0, 
+                    "rgbGainB": 1.0, 
+                    "outputMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "clampMinX": 0.0, 
+                    "clampMinY": 0.0, 
+                    "clampMinZ": 0.0, 
+                    "contrast": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "clampMaxX": 1.0, 
+                    "outputMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "clampMaxY": 1.0, 
+                    "contrastPivotX": 0.5, 
+                    "contrastPivotY": 0.5, 
+                    "contrastPivotZ": 0.5, 
+                    "clampOutput": false, 
+                    "contrastPivot": [
+                        [
+                            0.5, 
+                            0.5, 
+                            0.5
+                        ]
+                    ], 
+                    "hsv": [
+                        [
+                            0.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "inputRGB": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "exposure": 0.0, 
+                    "rgbGain": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "clampMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "gammaZ": 1.0, 
+                    "gammaY": 1.0, 
+                    "gammaX": 1.0, 
+                    "contrastZ": 0.0, 
+                    "contrastY": 0.0, 
+                    "contrastX": 0.0, 
+                    "invertMask": false, 
+                    "gamma": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ]
+                }
+            }
+        ]
+    }, 
+    "PxrColorCorrect_FUZZ": {
+        "PxrColorCorrect": [
+            {
+                "connections": null, 
+                "attributes": {
+                    "clampMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "mixMask": 1.0, 
+                    "inputRGBR": 0.0, 
+                    "outputMaxZ": 1.0, 
+                    "outputMaxY": 1.0, 
+                    "outputMaxX": 1.0, 
+                    "outputMinY": 0.0, 
+                    "hsvX": 0.0, 
+                    "hsvY": 1.0, 
+                    "inputRGBG": 0.0, 
+                    "hsvZ": 1.0, 
+                    "inputRGBB": 0.0, 
+                    "outputMinX": 0.0, 
+                    "outputMinZ": 0.0, 
+                    "inputMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "inputMaxZ": 1.0, 
+                    "inputMaxY": 1.0, 
+                    "inputMaxX": 1.0, 
+                    "inputMask": 1.0, 
+                    "rgbGainR": 1.0, 
+                    "inputMinY": 0.0, 
+                    "inputMinX": 0.0, 
+                    "inputMinZ": 0.0, 
+                    "inputMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "rgbGainG": 1.0, 
+                    "clampMaxZ": 1.0, 
+                    "rgbGainB": 1.0, 
+                    "outputMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "clampMinX": 0.0, 
+                    "clampMinY": 0.0, 
+                    "clampMinZ": 0.0, 
+                    "contrast": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "clampMaxX": 1.0, 
+                    "outputMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "clampMaxY": 1.0, 
+                    "contrastPivotX": 0.5, 
+                    "contrastPivotY": 0.5, 
+                    "contrastPivotZ": 0.5, 
+                    "clampOutput": false, 
+                    "contrastPivot": [
+                        [
+                            0.5, 
+                            0.5, 
+                            0.5
+                        ]
+                    ], 
+                    "hsv": [
+                        [
+                            0.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "inputRGB": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "exposure": 0.0, 
+                    "rgbGain": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "clampMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "gammaZ": 1.0, 
+                    "gammaY": 1.0, 
+                    "gammaX": 1.0, 
+                    "contrastZ": 0.0, 
+                    "contrastY": 0.0, 
+                    "contrastX": 0.0, 
+                    "invertMask": false, 
+                    "gamma": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ]
+                }
+            }
+        ]
+    }, 
+    "PxrColorCorrect_ALBEDO": {
+        "PxrColorCorrect": [
+            {
+                "connections": null, 
+                "attributes": {
+                    "clampMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "mixMask": 1.0, 
+                    "inputRGBR": 0.0, 
+                    "outputMaxZ": 1.0, 
+                    "outputMaxY": 1.0, 
+                    "outputMaxX": 1.0, 
+                    "outputMinY": 0.0, 
+                    "hsvX": 0.0, 
+                    "hsvY": 1.0, 
+                    "inputRGBG": 0.0, 
+                    "hsvZ": 1.0, 
+                    "inputRGBB": 0.0, 
+                    "outputMinX": 0.0, 
+                    "outputMinZ": 0.0, 
+                    "inputMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "inputMaxZ": 1.0, 
+                    "inputMaxY": 1.0, 
+                    "inputMaxX": 1.0, 
+                    "inputMask": 1.0, 
+                    "rgbGainR": 1.0, 
+                    "inputMinY": 0.0, 
+                    "inputMinX": 0.0, 
+                    "inputMinZ": 0.0, 
+                    "inputMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "rgbGainG": 1.0, 
+                    "clampMaxZ": 1.0, 
+                    "rgbGainB": 1.0, 
+                    "outputMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "clampMinX": 0.0, 
+                    "clampMinY": 0.0, 
+                    "clampMinZ": 0.0, 
+                    "contrast": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "clampMaxX": 1.0, 
+                    "outputMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "clampMaxY": 1.0, 
+                    "contrastPivotX": 0.5, 
+                    "contrastPivotY": 0.5, 
+                    "contrastPivotZ": 0.5, 
+                    "clampOutput": false, 
+                    "contrastPivot": [
+                        [
+                            0.5, 
+                            0.5, 
+                            0.5
+                        ]
+                    ], 
+                    "hsv": [
+                        [
+                            0.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "inputRGB": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "exposure": 0.0, 
+                    "rgbGain": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "clampMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "gammaZ": 1.0, 
+                    "gammaY": 1.0, 
+                    "gammaX": 1.0, 
+                    "contrastZ": 0.0, 
+                    "contrastY": 0.0, 
+                    "contrastX": 0.0, 
+                    "invertMask": false, 
+                    "gamma": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ]
+                }
+            }
+        ]
+    }, 
+    "CONSTRUCTOR_displacement": {
+        "PxrDisplace": [
+            {
+                "connections": [
+                    "CONSTRUCTOR_displacement.dispScalar", 
+                    "CONSTRUCTOR_dispTransform.resultF"
+                ], 
+                "attributes": {
+                    "modelDispVectorZ": 0.0, 
+                    "modelDispVector": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "modelDispVectorX": 0.0, 
+                    "modelDispVectorY": 0.0, 
+                    "dispAmount": 1.0, 
+                    "enabled": true, 
+                    "dispVector": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "dispVectorX": 0.0, 
+                    "dispVectorY": 0.0, 
+                    "dispScalar": 0.0, 
+                    "dispVectorZ": 0.0
+                }
+            }
+        ]
+    }, 
+    "PxrColorCorrect_SPECULAR": {
+        "PxrColorCorrect": [
+            {
+                "connections": null, 
+                "attributes": {
+                    "clampMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "mixMask": 1.0, 
+                    "inputRGBR": 0.0, 
+                    "outputMaxZ": 1.0, 
+                    "outputMaxY": 1.0, 
+                    "outputMaxX": 1.0, 
+                    "outputMinY": 0.0, 
+                    "hsvX": 0.0, 
+                    "hsvY": 1.0, 
+                    "inputRGBG": 0.0, 
+                    "hsvZ": 1.0, 
+                    "inputRGBB": 0.0, 
+                    "outputMinX": 0.0, 
+                    "outputMinZ": 0.0, 
+                    "inputMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "inputMaxZ": 1.0, 
+                    "inputMaxY": 1.0, 
+                    "inputMaxX": 1.0, 
+                    "inputMask": 1.0, 
+                    "rgbGainR": 1.0, 
+                    "inputMinY": 0.0, 
+                    "inputMinX": 0.0, 
+                    "inputMinZ": 0.0, 
+                    "inputMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "rgbGainG": 1.0, 
+                    "clampMaxZ": 1.0, 
+                    "rgbGainB": 1.0, 
+                    "outputMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "clampMinX": 0.0, 
+                    "clampMinY": 0.0, 
+                    "clampMinZ": 0.0, 
+                    "contrast": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "clampMaxX": 1.0, 
+                    "outputMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "clampMaxY": 1.0, 
+                    "contrastPivotX": 0.5, 
+                    "contrastPivotY": 0.5, 
+                    "contrastPivotZ": 0.5, 
+                    "clampOutput": false, 
+                    "contrastPivot": [
+                        [
+                            0.5, 
+                            0.5, 
+                            0.5
+                        ]
+                    ], 
+                    "hsv": [
+                        [
+                            0.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "inputRGB": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "exposure": 0.0, 
+                    "rgbGain": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "clampMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "gammaZ": 1.0, 
+                    "gammaY": 1.0, 
+                    "gammaX": 1.0, 
+                    "contrastZ": 0.0, 
+                    "contrastY": 0.0, 
+                    "contrastX": 0.0, 
+                    "invertMask": false, 
+                    "gamma": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ]
+                }
+            }
+        ]
+    }, 
+    "CONSTRUCTOR_dispTransform": {
+        "PxrDispTransform": [
+            {
+                "connections": [
+                    "CONSTRUCTOR_dispTransform.dispScalar", 
+                    "PxrColorCorrect_DISPLACEMENT.resultR"
+                ], 
+                "attributes": {
+                    "dispDepth": 0.5, 
+                    "dispType": 1, 
+                    "dispDirectionZ": 0.0, 
+                    "dispDirectionY": 0.0, 
+                    "dispDirectionX": 0.0, 
+                    "dispCenter": 0.5, 
+                    "dispScaleSpace": "object", 
+                    "dispHeight": 0.5, 
+                    "useDispDirection": false, 
+                    "vectorSpace": 3, 
+                    "dispVector": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "dispDirection": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "dispVectorX": 0.0, 
+                    "dispVectorY": 0.0, 
+                    "dispScalar": 0.0, 
+                    "dispRemapMode": 2, 
+                    "dispVectorZ": 0.0, 
+                    "dispDirectionSpace": "object"
+                }
+            }
+        ]
+    }, 
+    "PxrColorCorrect_TRANSLUCENCY": {
+        "PxrColorCorrect": [
+            {
+                "connections": null, 
+                "attributes": {
+                    "clampMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "mixMask": 1.0, 
+                    "inputRGBR": 0.0, 
+                    "outputMaxZ": 1.0, 
+                    "outputMaxY": 1.0, 
+                    "outputMaxX": 1.0, 
+                    "outputMinY": 0.0, 
+                    "hsvX": 0.0, 
+                    "hsvY": 1.0, 
+                    "inputRGBG": 0.0, 
+                    "hsvZ": 1.0, 
+                    "inputRGBB": 0.0, 
+                    "outputMinX": 0.0, 
+                    "outputMinZ": 0.0, 
+                    "inputMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "inputMaxZ": 1.0, 
+                    "inputMaxY": 1.0, 
+                    "inputMaxX": 1.0, 
+                    "inputMask": 1.0, 
+                    "rgbGainR": 1.0, 
+                    "inputMinY": 0.0, 
+                    "inputMinX": 0.0, 
+                    "inputMinZ": 0.0, 
+                    "inputMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "rgbGainG": 1.0, 
+                    "clampMaxZ": 1.0, 
+                    "rgbGainB": 1.0, 
+                    "outputMax": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "clampMinX": 0.0, 
+                    "clampMinY": 0.0, 
+                    "clampMinZ": 0.0, 
+                    "contrast": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "clampMaxX": 1.0, 
+                    "outputMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "clampMaxY": 1.0, 
+                    "contrastPivotX": 0.5, 
+                    "contrastPivotY": 0.5, 
+                    "contrastPivotZ": 0.5, 
+                    "clampOutput": false, 
+                    "contrastPivot": [
+                        [
+                            0.5, 
+                            0.5, 
+                            0.5
+                        ]
+                    ], 
+                    "hsv": [
+                        [
+                            0.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "inputRGB": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "exposure": 0.0, 
+                    "rgbGain": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ], 
+                    "clampMin": [
+                        [
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ]
+                    ], 
+                    "gammaZ": 1.0, 
+                    "gammaY": 1.0, 
+                    "gammaX": 1.0, 
+                    "contrastZ": 0.0, 
+                    "contrastY": 0.0, 
+                    "contrastX": 0.0, 
+                    "invertMask": false, 
+                    "gamma": [
+                        [
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    ]
+                }
+            }
+        ]
+    }, 
+    "CONSTRUCTOR_SG": {
+        "shadingEngine": [
+            {
+                "connections": [
+                    "CONSTRUCTOR_SG.rman__surface", 
+                    "CONSTRUCTOR_material.outColor", 
+                    "CONSTRUCTOR_SG.surfaceShader", 
+                    "CONSTRUCTOR_lambert_OGL.outColor", 
+                    "CONSTRUCTOR_SG.rman__displacement", 
+                    "CONSTRUCTOR_displacement.outColor"
+                ], 
+                "attributes": {}
+            }
+        ]
+    }
+}

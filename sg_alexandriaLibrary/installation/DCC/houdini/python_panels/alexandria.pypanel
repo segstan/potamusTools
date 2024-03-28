@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pythonPanelDocument>
+  <!-- This file contains definitions of Python interfaces and the
+ interfaces menu.  It should not be hand-edited when it is being
+ used by the application.  Note, that two definitions of the
+ same interface or of the interfaces menu are not allowed
+ in a single file. -->
+  <interfacesMenu type="toolbar">
+    <interfaceItem name="labs::diff"/>
+    <interfaceItem name="sesi_quick_start"/>
+    <interfaceItem name="ViewerHandleBrowser"/>
+    <interfaceItem name="ViewerStateBrowser"/>
+    <separatorItem/>
+    <interfaceItem name="Library"/>
+  </interfacesMenu>
+  <interfacesMenu type="panetab">
+    <interfaceItem name="labs::diff"/>
+    <interfaceItem name="pdgdatalayerpanel"/>
+    <interfaceItem name="pdgpathmap"/>
+    <interfaceItem name="pdgservicemenu"/>
+    <interfaceItem name="taskgraphtable"/>
+    <interfaceItem name="ViewerHandleBrowser"/>
+    <interfaceItem name="ViewerStateBrowser"/>
+    <interfaceItem name="contexteditor"/>
+    <interfaceItem name="sesi_auto_rigs"/>
+    <interfaceItem name="sesi_pose_space_deform"/>
+    <interfaceItem name="rig_tree"/>
+    <interfaceItem name="sesi_character_picker"/>
+    <interfaceItem name="sesi_pose_library"/>
+    <interfaceItem name="SceneGraphDetails"/>
+    <interfaceItem name="sesi_light_linker"/>
+    <interfaceItem name="SceneGraphLayersPanel"/>
+    <interfaceItem name="sesi_light_mixer"/>
+    <interfaceItem name="Library"/>
+  </interfacesMenu>
+  <interface name="Library" label="Alexandria Library" icon="icons/sg_alexandriaLibrary_icon64.png" showNetworkNavigationBar="false" help_url="">
+    <script><![CDATA[
+import sys
+sys.path.append("")
+
+import sg_alexandriaLibrary
+import imp
+imp.reload(sg_alexandriaLibrary)
+
+def onCreateInterface():
+    ui = sg_alexandriaLibrary.sgAlexandriaLibrary()
+    return ui
+
+]]></script>
+    <includeInToolbarMenu menu_position="104" create_separator="false"/>
+    <help><![CDATA[]]></help>
+  </interface>
+</pythonPanelDocument>

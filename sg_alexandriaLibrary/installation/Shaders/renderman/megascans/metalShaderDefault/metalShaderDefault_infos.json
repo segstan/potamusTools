@@ -1,0 +1,19 @@
+{
+    "releaseInfos": [
+        {
+            "name": "metalShaderDefault",
+            "extension": [
+                "json"
+            ],
+            "timeEntry": 1701015498.4567513,
+            "lock": true,
+            "tags": "megascans,metal,default",
+            "author": "Seg",
+            "textures": [],
+            "note": "Default Metal Megascans shader for Renderman",
+            "version": "5",
+            "meta": "",
+            "ocio": ""
+        }
+    ]
+}

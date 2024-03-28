@@ -1,0 +1,19 @@
+{
+    "releaseInfos": [
+        {
+            "name": "rockShaderDefault",
+            "tags": "rocks,default,megascans",
+            "author": "Seg",
+            "lock": true,
+            "note": "Default Megascans Shader for Rocks",
+            "version": "4",
+            "meta": "",
+            "extension": [
+                "json"
+            ],
+            "timeEntry": 14010155598.4567513,
+            "textures": [],
+            "ocio": ""
+        }
+    ]
+}

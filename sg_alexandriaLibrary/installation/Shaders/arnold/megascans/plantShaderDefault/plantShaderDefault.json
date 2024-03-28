@@ -1,0 +1,1242 @@
+{
+    "CONSTRUCTOR_SG": {
+        "shadingEngine": [
+            {
+                "connections": [
+                    "CONSTRUCTOR_SG.surfaceShader",
+                    "CONSTRUCTOR_OLG.outColor",
+                    "CONSTRUCTOR_SG.displacementShader",
+                    "CONSTRUCTOR_displacement.displacement",
+                    "CONSTRUCTOR_SG.aiSurfaceShader",
+                    "CONSTRUCTOR_material.outColor"
+                ],
+                "attributes": {
+                    "caching": false,
+                    "frozen": false,
+                    "isHistoricallyInteresting": 0,
+                    "nodeState": 0,
+                    "isCollapsed": false,
+                    "blackBox": false,
+                    "templateName": null,
+                    "templatePath": null,
+                    "viewName": null,
+                    "iconName": "",
+                    "viewMode": 2,
+                    "templateVersion": 0,
+                    "uiTreatment": 0,
+                    "customTreatment": null,
+                    "creator": null,
+                    "creationDate": null,
+                    "containerType": null,
+                    "memberWireframeColor": -1,
+                    "hiddenInOutliner": false,
+                    "aiOverride": true,
+                    "displacementShader": 0.0,
+                    "imageShader": null,
+                    "volumeShader": null,
+                    "surfaceShader": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "defaultLights": null,
+                    "dShadowDirection": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "dShadowDirectionX": 0.0,
+                    "dShadowDirectionY": 0.0,
+                    "dShadowDirectionZ": 0.0,
+                    "dShadowIntensity": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "dShadowIntensityR": 0.0,
+                    "dShadowIntensityG": 0.0,
+                    "dShadowIntensityB": 0.0,
+                    "dShadowAmbient": false,
+                    "dShadowDiffuse": false,
+                    "dShadowSpecular": false,
+                    "dShadowShadowFraction": 0.0,
+                    "dShadowPreShadowIntensity": 0.0,
+                    "dShadowBlindData": 0.0,
+                    "aiSurfaceShader": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "aiSurfaceShaderR": 0.0,
+                    "aiSurfaceShaderG": 0.0,
+                    "aiSurfaceShaderB": 0.0,
+                    "aiVolumeShader": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "aiVolumeShaderR": 0.0,
+                    "aiVolumeShaderG": 0.0,
+                    "aiVolumeShaderB": 0.0
+                }
+            }
+        ]
+    },
+    "CONSTRUCTOR_OLG": {
+        "lambert": [
+            {
+                "connections": null,
+                "attributes": {
+                    "caching": false,
+                    "frozen": false,
+                    "isHistoricallyInteresting": 2,
+                    "nodeState": 0,
+                    "objectId": 0.0,
+                    "primitiveId": 0,
+                    "raySampler": 0.0,
+                    "rayDepth": 0,
+                    "rayInstance": 0,
+                    "refractionLimit": 6,
+                    "refractiveIndex": 1.0,
+                    "mediumRefractiveIndex": 1.0,
+                    "refractions": false,
+                    "diffuse": 0.800000011920929,
+                    "rayDirection": [
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "rayDirectionX": 0.0,
+                    "rayDirectionY": 0.0,
+                    "rayDirectionZ": 1.0,
+                    "color": [
+                        [
+                            0.5,
+                            0.5,
+                            0.5
+                        ]
+                    ],
+                    "colorR": 0.5,
+                    "colorG": 0.5,
+                    "colorB": 0.5,
+                    "transparency": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "transparencyR": 0.0,
+                    "transparencyG": 0.0,
+                    "transparencyB": 0.0,
+                    "ambientColor": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "ambientColorR": 0.0,
+                    "ambientColorG": 0.0,
+                    "ambientColorB": 0.0,
+                    "incandescence": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "incandescenceR": 0.0,
+                    "incandescenceG": 0.0,
+                    "incandescenceB": 0.0,
+                    "translucence": 0.0,
+                    "translucenceFocus": 0.5,
+                    "translucenceDepth": 0.5,
+                    "opacityDepth": 0.0,
+                    "glowIntensity": 0.0,
+                    "vrOverwriteDefaults": false,
+                    "vrFillObject": 0,
+                    "vrEdgeWeight": 0.0,
+                    "vrEdgeColor": [
+                        [
+                            0.5,
+                            0.5,
+                            0.5
+                        ]
+                    ],
+                    "vrEdgeColorR": 0.5,
+                    "vrEdgeColorG": 0.5,
+                    "vrEdgeColorB": 0.5,
+                    "vrEdgeStyle": 0,
+                    "vrEdgePriority": 0,
+                    "vrHiddenEdges": false,
+                    "vrHiddenEdgesOnTransparent": false,
+                    "vrOutlinesAtIntersections": true,
+                    "materialAlphaGain": 1.0,
+                    "hideSource": false,
+                    "surfaceThickness": 0.0,
+                    "shadowAttenuation": 0.5,
+                    "transparencyDepth": 0.0,
+                    "lightAbsorbance": 0.0,
+                    "chromaticAberration": false,
+                    "outColor": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "outColorR": 0.0,
+                    "outColorG": 0.0,
+                    "outColorB": 0.0,
+                    "outTransparency": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "outTransparencyR": 0.0,
+                    "outTransparencyG": 0.0,
+                    "outTransparencyB": 0.0,
+                    "outGlowColor": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "outGlowColorR": 0.0,
+                    "outGlowColorG": 0.0,
+                    "outGlowColorB": 0.0,
+                    "pointCamera": [
+                        [
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    ],
+                    "pointCameraX": 1.0,
+                    "pointCameraY": 1.0,
+                    "pointCameraZ": 1.0,
+                    "normalCamera": [
+                        [
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    ],
+                    "normalCameraX": 1.0,
+                    "normalCameraY": 1.0,
+                    "normalCameraZ": 1.0,
+                    "matteOpacityMode": 2,
+                    "matteOpacity": 1.0,
+                    "outMatteOpacity": [
+                        [
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    ],
+                    "outMatteOpacityR": 1.0,
+                    "outMatteOpacityG": 1.0,
+                    "outMatteOpacityB": 1.0,
+                    "hardwareShader": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "hardwareShaderR": 0.0,
+                    "hardwareShaderG": 0.0,
+                    "hardwareShaderB": 0.0
+                }
+            }
+        ]
+    },
+    "CONSTRUCTOR_displacement": {
+        "displacementShader": [
+            {
+                "connections": [
+                    "CONSTRUCTOR_displacement.displacement",
+                    "aiColorCorrect_DISPLACEMENT.outColorR"
+                ],
+                "attributes": {
+                    "caching": false,
+                    "frozen": false,
+                    "isHistoricallyInteresting": 2,
+                    "nodeState": 0,
+                    "displacementMode": 0,
+                    "displacement": 0.0,
+                    "vectorDisplacement": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "vectorDisplacementX": 0.0,
+                    "vectorDisplacementY": 0.0,
+                    "vectorDisplacementZ": 0.0,
+                    "scale": 1.0,
+                    "vectorEncoding": 0,
+                    "vectorSpace": 1,
+                    "yIsUp": true,
+                    "tangent": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "tangentX": 0.0,
+                    "tangentY": 0.0,
+                    "tangentZ": 0.0,
+                    "aiUserOptions": "",
+                    "aiDisplacementPadding": 0.25,
+                    "aiDisplacementZeroValue": 0.5,
+                    "aiDisplacementAutoBump": true
+                }
+            }
+        ]
+    },
+    "CONSTRUCTOR_material": {
+        "aiStandardSurface": [
+            {
+                "connections": [
+                    "CONSTRUCTOR_material.baseColor",
+                    "aiColorCorrect_ALBEDO.outColor",
+                    "CONSTRUCTOR_material.specularColor",
+                    "aiColorCorrect_SPECULAR.outColor",
+                    "CONSTRUCTOR_material.specularRoughness",
+                    "aiColorCorrect_ROUGHNESS.outColorR",
+                    "CONSTRUCTOR_material.subsurfaceColor",
+                    "aiColorCorrect_TRANSLUCENCY.outColor",
+                    "CONSTRUCTOR_material.opacity",
+                    "aiColorCorrect_OPACITY.outColor",
+                    "CONSTRUCTOR_material.normalCamera",
+                    "CONSTRUCTOR_NORMAL.outValue",
+                    "CONSTRUCTOR_material.transmissionColor",
+                    "aiColorCorrect_TRANSLUCENCY.outColor"
+                ],
+                "attributes": {
+                    "caching": false,
+                    "frozen": false,
+                    "isHistoricallyInteresting": 2,
+                    "nodeState": 0,
+                    "outColor": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "outColorR": 0.0,
+                    "outColorG": 0.0,
+                    "outColorB": 0.0,
+                    "outAlpha": 0.0,
+                    "outTransparency": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "outTransparencyR": 0.0,
+                    "outTransparencyG": 0.0,
+                    "outTransparencyB": 0.0,
+                    "normalCamera": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "normalCameraX": 0.0,
+                    "normalCameraY": 0.0,
+                    "normalCameraZ": 0.0,
+                    "aiEnableMatte": false,
+                    "aiMatteColor": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "aiMatteColorR": 0.0,
+                    "aiMatteColorG": 0.0,
+                    "aiMatteColorB": 0.0,
+                    "aiMatteColorA": 0.0,
+                    "base": 1.0,
+                    "baseColor": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "baseColorR": 0.0,
+                    "baseColorG": 0.0,
+                    "baseColorB": 0.0,
+                    "diffuseRoughness": 1.0,
+                    "specular": 1.0,
+                    "specularColor": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "specularColorR": 0.0,
+                    "specularColorG": 0.0,
+                    "specularColorB": 0.0,
+                    "specularRoughness": 0.0,
+                    "specularIOR": 1.5199999809265137,
+                    "specularAnisotropy": 0.5,
+                    "specularRotation": 0.0,
+                    "metalness": 0.0,
+                    "transmission": 0.25,
+                    "transmissionColor": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "transmissionColorR": 0.0,
+                    "transmissionColorG": 0.0,
+                    "transmissionColorB": 0.0,
+                    "transmissionDepth": 0.0,
+                    "transmissionScatter": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "transmissionScatterR": 0.0,
+                    "transmissionScatterG": 0.0,
+                    "transmissionScatterB": 0.0,
+                    "transmissionScatterAnisotropy": 0.0,
+                    "transmissionDispersion": 0.0,
+                    "transmissionExtraRoughness": 0.0,
+                    "transmitAovs": false,
+                    "subsurface": 0.5,
+                    "subsurfaceColor": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "subsurfaceColorR": 0.0,
+                    "subsurfaceColorG": 0.0,
+                    "subsurfaceColorB": 0.0,
+                    "subsurfaceRadius": [
+                        [
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    ],
+                    "subsurfaceRadiusR": 1.0,
+                    "subsurfaceRadiusG": 1.0,
+                    "subsurfaceRadiusB": 1.0,
+                    "subsurfaceScale": 0.10000000149011612,
+                    "subsurfaceAnisotropy": 0.0,
+                    "subsurfaceType": 0,
+                    "sheen": 0.0,
+                    "sheenColor": [
+                        [
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    ],
+                    "sheenColorR": 1.0,
+                    "sheenColorG": 1.0,
+                    "sheenColorB": 1.0,
+                    "sheenRoughness": 0.30000001192092896,
+                    "thinWalled": false,
+                    "tangent": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "tangentX": 0.0,
+                    "tangentY": 0.0,
+                    "tangentZ": 0.0,
+                    "coat": 0.0,
+                    "coatColor": [
+                        [
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    ],
+                    "coatColorR": 1.0,
+                    "coatColorG": 1.0,
+                    "coatColorB": 1.0,
+                    "coatRoughness": 0.10000000149011612,
+                    "coatIOR": 1.0,
+                    "coatAnisotropy": 0.0,
+                    "coatRotation": 0.0,
+                    "coatNormal": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "coatNormalX": 0.0,
+                    "coatNormalY": 0.0,
+                    "coatNormalZ": 0.0,
+                    "thinFilmThickness": 0.0,
+                    "thinFilmIOR": 1.5,
+                    "emission": 0.0,
+                    "emissionColor": [
+                        [
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    ],
+                    "emissionColorR": 1.0,
+                    "emissionColorG": 1.0,
+                    "emissionColorB": 1.0,
+                    "opacity": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "opacityR": 0.0,
+                    "opacityG": 0.0,
+                    "opacityB": 0.0,
+                    "caustics": false,
+                    "internalReflections": true,
+                    "exitToBackground": false,
+                    "indirectDiffuse": 1.0,
+                    "indirectSpecular": 1.0,
+                    "dielectricPriority": 0,
+                    "aovId1": "",
+                    "id1": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "id1R": 0.0,
+                    "id1G": 0.0,
+                    "id1B": 0.0,
+                    "aovId2": "",
+                    "id2": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "id2R": 0.0,
+                    "id2G": 0.0,
+                    "id2B": 0.0,
+                    "aovId3": "",
+                    "id3": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "id3R": 0.0,
+                    "id3G": 0.0,
+                    "id3B": 0.0,
+                    "aovId4": "",
+                    "id4": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "id4R": 0.0,
+                    "id4G": 0.0,
+                    "id4B": 0.0,
+                    "aovId5": "",
+                    "id5": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "id5R": 0.0,
+                    "id5G": 0.0,
+                    "id5B": 0.0,
+                    "aovId6": "",
+                    "id6": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "id6R": 0.0,
+                    "id6G": 0.0,
+                    "id6B": 0.0,
+                    "aovId7": "",
+                    "id7": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "id7R": 0.0,
+                    "id7G": 0.0,
+                    "id7B": 0.0,
+                    "aovId8": "",
+                    "id8": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "id8R": 0.0,
+                    "id8G": 0.0,
+                    "id8B": 0.0
+                }
+            }
+        ]
+    },
+    "aiColorCorrect_DISPLACEMENT": {
+        "aiColorCorrect": [
+            {
+                "connections": null,
+                "attributes": {
+                    "caching": false,
+                    "frozen": false,
+                    "isHistoricallyInteresting": 2,
+                    "nodeState": 0,
+                    "outColor": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "outColorR": 0.0,
+                    "outColorG": 0.0,
+                    "outColorB": 0.0,
+                    "outAlpha": 0.0,
+                    "outTransparency": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "outTransparencyR": 0.0,
+                    "outTransparencyG": 0.0,
+                    "outTransparencyB": 0.0,
+                    "inputA": 1.0,
+                    "input": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "inputR": 0.0,
+                    "inputG": 0.0,
+                    "inputB": 0.0,
+                    "alphaIsLuminance": false,
+                    "alphaMultiply": 1.0,
+                    "alphaAdd": 0.0,
+                    "invert": false,
+                    "invertAlpha": false,
+                    "gamma": 1.0,
+                    "hueShift": 0.0,
+                    "saturation": 1.0,
+                    "contrast": 1.0,
+                    "contrastPivot": 0.18000000715255737,
+                    "exposure": 0.0,
+                    "multiply": [
+                        [
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    ],
+                    "multiplyR": 1.0,
+                    "multiplyG": 1.0,
+                    "multiplyB": 1.0,
+                    "add": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "addR": 0.0,
+                    "addG": 0.0,
+                    "addB": 0.0,
+                    "mask": 1.0
+                }
+            }
+        ]
+    },
+    "aiColorCorrect_ALBEDO": {
+        "aiColorCorrect": [
+            {
+                "connections": null,
+                "attributes": {
+                    "caching": false,
+                    "frozen": false,
+                    "isHistoricallyInteresting": 2,
+                    "nodeState": 0,
+                    "outColor": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "outColorR": 0.0,
+                    "outColorG": 0.0,
+                    "outColorB": 0.0,
+                    "outAlpha": 0.0,
+                    "outTransparency": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "outTransparencyR": 0.0,
+                    "outTransparencyG": 0.0,
+                    "outTransparencyB": 0.0,
+                    "inputA": 1.0,
+                    "input": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "inputR": 0.0,
+                    "inputG": 0.0,
+                    "inputB": 0.0,
+                    "alphaIsLuminance": false,
+                    "alphaMultiply": 1.0,
+                    "alphaAdd": 0.0,
+                    "invert": false,
+                    "invertAlpha": false,
+                    "gamma": 1.0,
+                    "hueShift": 0.0,
+                    "saturation": 1.0,
+                    "contrast": 1.0,
+                    "contrastPivot": 0.18000000715255737,
+                    "exposure": 0.0,
+                    "multiply": [
+                        [
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    ],
+                    "multiplyR": 1.0,
+                    "multiplyG": 1.0,
+                    "multiplyB": 1.0,
+                    "add": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "addR": 0.0,
+                    "addG": 0.0,
+                    "addB": 0.0,
+                    "mask": 1.0
+                }
+            }
+        ]
+    },
+    "aiColorCorrect_SPECULAR": {
+        "aiColorCorrect": [
+            {
+                "connections": null,
+                "attributes": {
+                    "caching": false,
+                    "frozen": false,
+                    "isHistoricallyInteresting": 2,
+                    "nodeState": 0,
+                    "outColor": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "outColorR": 0.0,
+                    "outColorG": 0.0,
+                    "outColorB": 0.0,
+                    "outAlpha": 0.0,
+                    "outTransparency": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "outTransparencyR": 0.0,
+                    "outTransparencyG": 0.0,
+                    "outTransparencyB": 0.0,
+                    "inputA": 1.0,
+                    "input": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "inputR": 0.0,
+                    "inputG": 0.0,
+                    "inputB": 0.0,
+                    "alphaIsLuminance": false,
+                    "alphaMultiply": 1.0,
+                    "alphaAdd": 0.0,
+                    "invert": false,
+                    "invertAlpha": false,
+                    "gamma": 1.0,
+                    "hueShift": 0.0,
+                    "saturation": 1.0,
+                    "contrast": 1.0,
+                    "contrastPivot": 0.18000000715255737,
+                    "exposure": 0.0,
+                    "multiply": [
+                        [
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    ],
+                    "multiplyR": 1.0,
+                    "multiplyG": 1.0,
+                    "multiplyB": 1.0,
+                    "add": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "addR": 0.0,
+                    "addG": 0.0,
+                    "addB": 0.0,
+                    "mask": 1.0
+                }
+            }
+        ]
+    },
+    "aiColorCorrect_ROUGHNESS": {
+        "aiColorCorrect": [
+            {
+                "connections": null,
+                "attributes": {
+                    "caching": false,
+                    "frozen": false,
+                    "isHistoricallyInteresting": 2,
+                    "nodeState": 0,
+                    "outColor": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "outColorR": 0.0,
+                    "outColorG": 0.0,
+                    "outColorB": 0.0,
+                    "outAlpha": 0.0,
+                    "outTransparency": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "outTransparencyR": 0.0,
+                    "outTransparencyG": 0.0,
+                    "outTransparencyB": 0.0,
+                    "inputA": 1.0,
+                    "input": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "inputR": 0.0,
+                    "inputG": 0.0,
+                    "inputB": 0.0,
+                    "alphaIsLuminance": false,
+                    "alphaMultiply": 1.0,
+                    "alphaAdd": 0.0,
+                    "invert": false,
+                    "invertAlpha": false,
+                    "gamma": 1.0,
+                    "hueShift": 0.0,
+                    "saturation": 1.0,
+                    "contrast": 1.0,
+                    "contrastPivot": 0.18000000715255737,
+                    "exposure": 0.0,
+                    "multiply": [
+                        [
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    ],
+                    "multiplyR": 1.0,
+                    "multiplyG": 1.0,
+                    "multiplyB": 1.0,
+                    "add": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "addR": 0.0,
+                    "addG": 0.0,
+                    "addB": 0.0,
+                    "mask": 1.0
+                }
+            }
+        ]
+    },
+    "aiColorCorrect_TRANSLUCENCY": {
+        "aiColorCorrect": [
+            {
+                "connections": null,
+                "attributes": {
+                    "caching": false,
+                    "frozen": false,
+                    "isHistoricallyInteresting": 2,
+                    "nodeState": 0,
+                    "outColor": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "outColorR": 0.0,
+                    "outColorG": 0.0,
+                    "outColorB": 0.0,
+                    "outAlpha": 0.0,
+                    "outTransparency": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "outTransparencyR": 0.0,
+                    "outTransparencyG": 0.0,
+                    "outTransparencyB": 0.0,
+                    "inputA": 1.0,
+                    "input": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "inputR": 0.0,
+                    "inputG": 0.0,
+                    "inputB": 0.0,
+                    "alphaIsLuminance": false,
+                    "alphaMultiply": 1.0,
+                    "alphaAdd": 0.0,
+                    "invert": false,
+                    "invertAlpha": false,
+                    "gamma": 1.0,
+                    "hueShift": 0.0,
+                    "saturation": 1.0,
+                    "contrast": 1.0,
+                    "contrastPivot": 0.18000000715255737,
+                    "exposure": 0.0,
+                    "multiply": [
+                        [
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    ],
+                    "multiplyR": 1.0,
+                    "multiplyG": 1.0,
+                    "multiplyB": 1.0,
+                    "add": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "addR": 0.0,
+                    "addG": 0.0,
+                    "addB": 0.0,
+                    "mask": 1.0
+                }
+            }
+        ]
+    },
+    "aiColorCorrect_OPACITY": {
+        "aiColorCorrect": [
+            {
+                "connections": null,
+                "attributes": {
+                    "caching": false,
+                    "frozen": false,
+                    "isHistoricallyInteresting": 2,
+                    "nodeState": 0,
+                    "outColor": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "outColorR": 0.0,
+                    "outColorG": 0.0,
+                    "outColorB": 0.0,
+                    "outAlpha": 0.0,
+                    "outTransparency": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "outTransparencyR": 0.0,
+                    "outTransparencyG": 0.0,
+                    "outTransparencyB": 0.0,
+                    "inputA": 1.0,
+                    "input": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "inputR": 0.0,
+                    "inputG": 0.0,
+                    "inputB": 0.0,
+                    "alphaIsLuminance": false,
+                    "alphaMultiply": 1.0,
+                    "alphaAdd": 0.0,
+                    "invert": false,
+                    "invertAlpha": false,
+                    "gamma": 1.0,
+                    "hueShift": 0.0,
+                    "saturation": 1.0,
+                    "contrast": 1.0,
+                    "contrastPivot": 0.18000000715255737,
+                    "exposure": 0.0,
+                    "multiply": [
+                        [
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    ],
+                    "multiplyR": 1.0,
+                    "multiplyG": 1.0,
+                    "multiplyB": 1.0,
+                    "add": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "addR": 0.0,
+                    "addG": 0.0,
+                    "addB": 0.0,
+                    "mask": 1.0
+                }
+            }
+        ]
+    },
+    "CONSTRUCTOR_NORMAL": {
+        "aiNormalMap": [
+            {
+                "connections": [
+                    "CONSTRUCTOR_NORMAL.input",
+                    "aiColorCorrect_NORMAL.outColor"
+                ],
+                "attributes": {
+                    "caching": false,
+                    "frozen": false,
+                    "isHistoricallyInteresting": 2,
+                    "nodeState": 0,
+                    "outValue": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "outValueX": 0.0,
+                    "outValueY": 0.0,
+                    "outValueZ": 0.0,
+                    "outTransparency": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "outTransparencyR": 0.0,
+                    "outTransparencyG": 0.0,
+                    "outTransparencyB": 0.0,
+                    "input": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "inputX": 0.0,
+                    "inputY": 0.0,
+                    "inputZ": 0.0,
+                    "tangent": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "tangentX": 0.0,
+                    "tangentY": 0.0,
+                    "tangentZ": 0.0,
+                    "normal": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "normalX": 0.0,
+                    "normalY": 0.0,
+                    "normalZ": 0.0,
+                    "order": 0,
+                    "invertX": false,
+                    "invertY": false,
+                    "invertZ": false,
+                    "colorToSigned": true,
+                    "tangentSpace": true,
+                    "strength": 1.0
+                }
+            }
+        ]
+    },
+    "aiColorCorrect_NORMAL": {
+        "aiColorCorrect": [
+            {
+                "connections": null,
+                "attributes": {
+                    "caching": false,
+                    "frozen": false,
+                    "isHistoricallyInteresting": 2,
+                    "nodeState": 0,
+                    "outColor": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "outColorR": 0.0,
+                    "outColorG": 0.0,
+                    "outColorB": 0.0,
+                    "outAlpha": 0.0,
+                    "outTransparency": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "outTransparencyR": 0.0,
+                    "outTransparencyG": 0.0,
+                    "outTransparencyB": 0.0,
+                    "inputA": 1.0,
+                    "input": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "inputR": 0.0,
+                    "inputG": 0.0,
+                    "inputB": 0.0,
+                    "alphaIsLuminance": false,
+                    "alphaMultiply": 1.0,
+                    "alphaAdd": 0.0,
+                    "invert": false,
+                    "invertAlpha": false,
+                    "gamma": 1.0,
+                    "hueShift": 0.0,
+                    "saturation": 1.0,
+                    "contrast": 1.0,
+                    "contrastPivot": 0.18000000715255737,
+                    "exposure": 0.0,
+                    "multiply": [
+                        [
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    ],
+                    "multiplyR": 1.0,
+                    "multiplyG": 1.0,
+                    "multiplyB": 1.0,
+                    "add": [
+                        [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "addR": 0.0,
+                    "addG": 0.0,
+                    "addB": 0.0,
+                    "mask": 1.0
+                }
+            }
+        ]
+    }
+}
