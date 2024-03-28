@@ -1,0 +1,10 @@
+{
+    "Generalist Library": [
+        {
+            "path_Windows": "J:/library/",
+            "path_Linux": "/mnt/shows_data/assetBank/library/",
+            "megascans_Windows": "J:/megascansZips/",
+            "megascans_Linux": "/mnt/shows_data/assetBank/megascansZips/"
+        }
+    ]
+}
