@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QGroupBox" name="groupBox_sgConvertListFile">
+      <property name="title">
+       <string>List Texture Files</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QTreeWidget" name="treeWidget_sgConvertTextures">
+         <property name="contextMenuPolicy">
+          <enum>Qt::ActionsContextMenu</enum>
+         </property>
+         <property name="selectionMode">
+          <enum>QAbstractItemView::ExtendedSelection</enum>
+         </property>
+         <attribute name="headerVisible">
+          <bool>false</bool>
+         </attribute>
+         <column>
+          <property name="text">
+           <string notr="true">1</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QSplitter" name="splitter_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QPushButton" name="pushButton_sgConvertTScene">
+          <property name="text">
+           <string>Parse Scene</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_sgConvertTSelection">
+          <property name="text">
+           <string>Parse Selection</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QPushButton" name="pushButton_sgOpenFolder">
+         <property name="text">
+          <string>Parse Folder</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_sgConvertSettings">
+      <property name="title">
+       <string>Settings</string>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_sgTextureType">
+           <property name="text">
+            <string>Texture Type:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QComboBox" name="comboBox_sgTypeTexture">
+           <item>
+            <property name="text">
+             <string>Texture</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>EnvLatL</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QComboBox" name="comboBox_sgTypeConvert"/>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_Texture">
+           <property name="text">
+            <string>Convert to:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QComboBox" name="comboBox_sgBitDepth">
+           <property name="currentIndex">
+            <number>1</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>8 bit</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>16 bit</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>half</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>float</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_sgBitDepth">
+           <property name="text">
+            <string>Bit depth</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label_WrapMode">
+           <property name="text">
+            <string>ST Wrap Mode:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_sgWrapHorizontal">
+           <property name="currentText">
+            <string>Periodic</string>
+           </property>
+           <property name="currentIndex">
+            <number>2</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Black</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Clamp</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Periodic</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_sgWrapVertical">
+           <property name="currentText">
+            <string>Periodic</string>
+           </property>
+           <property name="currentIndex">
+            <number>2</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Black</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Clamp</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Periodic</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QProgressBar" name="progressBar_sgConvertTextures">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="maximum">
+       <number>100</number>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="textVisible">
+       <bool>true</bool>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+      <property name="format">
+       <string>%p%</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_sgConvertAndReplace">
+      <property name="text">
+       <string>Convert and Replace Path</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_sgReplacePath">
+      <property name="text">
+       <string>Replace Path</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
